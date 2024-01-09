@@ -1,6 +1,6 @@
 #!bin/bash
 
-cd gzb_plugin_ws
+cd plugin_ws
 
 source devel/setup.bash
 
