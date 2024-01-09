@@ -1,0 +1,8 @@
+prefix=/home/seth/gzb_reader/plugin_ws/devel
+
+Name: subscriber_model_plugin
+Description: Description of subscriber_model_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

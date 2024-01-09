@@ -9,6 +9,7 @@ First, create a folder for the workspace. Something like *my_ws* would do.
 
 Then, run the following commands
 
+    cd my_ws
     mkdir src
     cd src
     git clone https://github.com/FeoHeo/gzb_reader.git

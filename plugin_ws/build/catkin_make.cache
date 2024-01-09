@@ -1,0 +1,2 @@
+gazebo_plugin_tutorials/joint_control_plugin:gazebo_plugin_tutorials/light_control_ros:gazebo_plugin_tutorials/light_move_plugin:gazebo_plugin_tutorials/model_plugin:gazebo_plugin_tutorials/model_plugin_ros:gazebo_plugin_tutorials/subscriber_model_plugin:gazebo_plugin_tutorials/world_plugin
+-DCATKIN_DEVEL_PREFIX=/home/seth/gzb_reader/plugin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/seth/gzb_reader/plugin_ws/install -G Unix Makefiles
