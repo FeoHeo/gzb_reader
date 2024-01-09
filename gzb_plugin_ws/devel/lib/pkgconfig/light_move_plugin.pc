@@ -1,8 +1,0 @@
-prefix=/home/seth/gzb_plugin_tut/devel
-
-Name: light_move_plugin
-Description: Description of light_move_plugin
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

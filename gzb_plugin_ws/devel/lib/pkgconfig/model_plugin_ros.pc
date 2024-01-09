@@ -1,8 +1,0 @@
-prefix=/home/seth/gzb_plugin_tut/devel
-
-Name: model_plugin_ros
-Description: Description of model_plugin_ros
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

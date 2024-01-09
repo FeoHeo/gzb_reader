@@ -1,8 +1,0 @@
-prefix=/home/seth/test_ws/install
-
-Name: ack_mqtt
-Description: Description of ack_mqtt
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

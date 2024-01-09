@@ -1,8 +1,0 @@
-prefix=/home/seth/gzb_plugin_tut/install
-
-Name: light_rgb_read
-Description: Description of light_rgb_read
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

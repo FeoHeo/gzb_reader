@@ -1,2 +1,0 @@
-ack_mqtt:light_ACK:mqtt_bridge:reader
--G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/seth/test_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/opt/ros/noetic
