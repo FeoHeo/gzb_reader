@@ -1,8 +1,0 @@
-prefix=/home/seth/gzb_plugin_tut/src/build/devel
-
-Name: model_plugin
-Description: Description of model_plugin
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -5,10 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("gazebo_plugin_tutorials/joint_control_plugin")
-subdirs("gazebo_plugin_tutorials/light_control_ros")
-subdirs("gazebo_plugin_tutorials/light_move_plugin")
-subdirs("gazebo_plugin_tutorials/model_plugin")
-subdirs("gazebo_plugin_tutorials/model_plugin_ros")
-subdirs("gazebo_plugin_tutorials/subscriber_model_plugin")
-subdirs("gazebo_plugin_tutorials/world_plugin")
+subdirs("light_control_ros")

@@ -8,7 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/seth/gzb_reader/plugin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/seth/gzb_reader/plugin_ws/devel/lib:$LD_LIBRARY_PATH"
 export PWD='/home/seth/gzb_reader/plugin_ws/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/seth/gzb_reader/plugin_ws/devel/share/common-lisp'
 export ROS_PACKAGE_PATH="/home/seth/gzb_reader/plugin_ws/src:$ROS_PACKAGE_PATH"

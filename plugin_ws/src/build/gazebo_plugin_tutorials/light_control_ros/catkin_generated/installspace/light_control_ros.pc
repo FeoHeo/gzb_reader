@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: light_control_ros
-Description: Description of light_control_ros
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

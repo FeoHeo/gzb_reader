@@ -131,13 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/seth/gzb_reader/plugin_ws/build/gtest/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/joint_control_plugin/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/light_control_ros/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/light_move_plugin/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/model_plugin/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/model_plugin_ros/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/subscriber_model_plugin/cmake_install.cmake")
-  include("/home/seth/gzb_reader/plugin_ws/build/gazebo_plugin_tutorials/world_plugin/cmake_install.cmake")
+  include("/home/seth/gzb_reader/plugin_ws/build/light_control_ros/cmake_install.cmake")
 
 endif()
 
