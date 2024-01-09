@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/seth/test_ws/devel_isolated/ack_mqtt/setup.sh

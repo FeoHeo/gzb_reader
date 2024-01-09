@@ -1,0 +1,8 @@
+prefix=/home/seth/gzb_plugin_tut/src/build/devel
+
+Name: joint_control_plugin
+Description: Description of joint_control_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+light_ACK:mqtt_bridge:reader
+-DCATKIN_DEVEL_PREFIX=/home/seth/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/seth/test_ws/install -G Unix Makefiles

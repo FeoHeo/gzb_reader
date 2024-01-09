@@ -1,0 +1,8 @@
+prefix=/home/seth/gzb_plugin_tut/install
+
+Name: light_code_reader
+Description: Description of light_code_reader
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

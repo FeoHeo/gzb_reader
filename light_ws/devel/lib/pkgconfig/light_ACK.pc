@@ -1,0 +1,8 @@
+prefix=/home/seth/test_ws/devel
+
+Name: light_ACK
+Description: Description of light_ACK
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
