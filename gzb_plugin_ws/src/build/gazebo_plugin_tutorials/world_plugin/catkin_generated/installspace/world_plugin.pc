@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: world_plugin
-Description: Description of world_plugin
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

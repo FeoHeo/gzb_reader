@@ -1,7 +1,7 @@
 # gzb_reader 
 
 
-**The gzb_plugin_ws uses the code from here:** 
+**The plugin_ws uses the code from here:** 
 https://sites.google.com/view/gazebo-plugin-tutorials/8-ros-gazebo-light-control-plugin
 
 ## **Getting Started**
