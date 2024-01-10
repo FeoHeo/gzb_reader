@@ -15,6 +15,8 @@ Then, run the following commands
     git clone https://github.com/FeoHeo/gzb_reader.git
     cd ..
     catkin_make
+**NOTE**: If catkin_make does not work, delete folders /build and /devel in both folders /light_ws and /plugin_ws then try again
+
 
 **This concludes getting started part, below are code functionality**
 
@@ -30,12 +32,40 @@ Then, run the following commands
     . go_to_light_ack.sh
 From here, you can run either ack for light or code reader for light
 
-run light ack 
-
-    rosrun light_ACK ack_mqtt to run ack for light
 run light code reader
 
     rosrun reader light_core_reader
+
+
+run light ack 
+
+Extra configuration will be needed if you wanna run light ack. Aside from this code, you will need: mqtt_bridge and MqttX
+
+Install and config MqttX: You can download it from Ubuntu Software store(recommended) 
+
+Or download from here: https://mqttx.app/downloads
+
+Now install mqtt_bridge from the github repo: https://github.com/groove-x/mqtt_bridge
+
+Connect MqttX to mqtt_bridge. Go to /mqtt_bridge/config/demo_params.yaml
+
+From .yaml file, change MqttX connection value(host and port) to the ones in the .yaml file
+
+From here, add a subscription to the mqtt_bridge topic. If you look at any of the bridge under 'bridge:' in .yaml, you can see 'factory: mqtt_bridge.bridge:RosToMqttBridge' and under there 'topic_to: randomName', the 'randomName' will be the name of the mqtt_bridge topic => so you should connect MqttX subsrciption to that topic
+
+
+Add the following code to your demo_params.yaml
+
+    - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:Bool
+    topic_from: /server_bridge_msgs/cmd_ack
+    topic_to: ~/echo
+
+From here, connect MqttX to mqtt_bridge. And you can run light_ACK
+
+    cd /light_ws
+    source devel/setup.bash
+    rosrun light_ACK ack_mqtt
 
 
 
