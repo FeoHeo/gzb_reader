@@ -1,8 +1,10 @@
 # gzb_reader 
 
 
-**The plugin_ws uses the code from here:** 
+**The plugin_ws uses the code from here(with some modification):** 
 https://sites.google.com/view/gazebo-plugin-tutorials/8-ros-gazebo-light-control-plugin
+
+Remember that I have modified the code to work on this specific project that I'm doing
 
 ## **Getting Started**
 First, create a folder for the workspace. Something like *my_ws* would do.
